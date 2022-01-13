@@ -1,0 +1,32 @@
+@import url("./layout.scss");
+@import url("./element.scss");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "allFont";
+  color: white;
+}
+
+@font-face {
+  font-family: allFont;
+  src: url(./font/bigyoung.ttf);
+}
+
+body{
+  width: 100vw;height: 100vh;
+  overflow: hidden;
+}
+.color1{
+  background-color: #FB7683;
+}
+.color2{
+  background-color: #36EDCE;
+}
+.color3{
+  background-color: #FFC24B;
+}
+.color4{
+  background-color: #0077E0;
+}
